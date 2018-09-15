@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "A news scraper",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DX3000/news-scraper.git"
+  },
+  "author": "DD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DX3000/news-scraper.git"
+  },
+  "homepage": "https://github.com/DX3000/scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.14",
+    "request": "^2.88.0"
+  }
+}
